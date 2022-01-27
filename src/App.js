@@ -8,8 +8,9 @@ import Number from './components/Number';
 function App() {
   return (
     <div className="App">
+        <h3 className="text-center mt-3">React RGB</h3>
         <div className="row m-5">
-            <div className="col-6">
+            <div className="col-sm-6 col-12">
                 <Sliders />
 
                 <div className="row mt-4">
@@ -25,7 +26,7 @@ function App() {
                 </div>
             </div>
 
-            <div className="col-6">
+            <div className="col-sm-6 col-12 mt-4 mt-sm-0">
                 <div id="rgb_box"></div>
             </div>
         </div>

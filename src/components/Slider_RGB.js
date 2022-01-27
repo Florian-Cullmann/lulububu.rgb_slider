@@ -8,6 +8,7 @@ class Slider_RGB extends React.Component {
                 max="255"
                 id={this.props.id}
                 onChange={(e) => this.props.change_state(this.props.id, e)}
+                className="mt-3"
             />
         );
     }
