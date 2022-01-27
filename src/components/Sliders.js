@@ -17,7 +17,8 @@ class Sliders extends React.Component {
 
     change_state(color, value) {
         this.setState({[color]: value});
-
+        document.getElementById("number_" + color).value = value;
+        document.getElementById("rgb_box").style.backgroundColor = 'rgb(' + [this.state.r, this.state.g, this.state.b].join(',') + ')';
         console.log(this.state);
     }
 
