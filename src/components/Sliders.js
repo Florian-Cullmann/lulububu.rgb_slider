@@ -2,7 +2,7 @@ import React from 'react';
 import Slider_RGB from './Slider_RGB';
 
 class Sliders extends React.Component {
-    render(props) {
+    render() {
         return (
             <div>
                 <Slider_RGB color="r" />
