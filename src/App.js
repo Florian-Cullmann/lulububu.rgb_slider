@@ -3,6 +3,7 @@ import './App.css';
 import 'rc-slider/assets/index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Sliders from './components/Sliders';
+import Number from './components/Number';
 
 function App() {
   return (
@@ -13,13 +14,13 @@ function App() {
 
                 <div className="row mt-4">
                     <div className="col-4">
-                        <input type="text" id="number_r" className="form-control" value="0" readOnly/>
+                        <Number id="number_r" />
                     </div>
                     <div className="col-4">
-                        <input type="text" id="number_g" className="form-control" value="0" readOnly/>
+                        <Number id="number_g" />
                     </div>
                     <div className="col-4">
-                        <input type="text" id="number_b" className="form-control" value="0" readOnly/>
+                        <Number id="number_b" />
                     </div>
                 </div>
             </div>
