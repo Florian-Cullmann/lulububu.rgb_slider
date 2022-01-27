@@ -25,7 +25,7 @@ function App() {
             </div>
 
             <div className="col-6">
-
+                <div id="rgb_box"></div>
             </div>
         </div>
     </div>
